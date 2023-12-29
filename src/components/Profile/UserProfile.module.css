@@ -1,0 +1,73 @@
+.profile {
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.profile h1 {
+  font-size: 3rem;
+}
+
+.toggle {
+  margin-top: -0.5rem;
+  background-color: transparent;
+  color: #9f5ccc;
+  border: none;
+  padding: 0.15rem 1.5rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.toggle:hover {
+  background-color: transparent;
+  color: #ae82cc;
+}
+
+.action button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: #38015c;
+  color: white;
+  border: 1px solid #38015c;
+}
+
+.action button:hover {
+  background-color: #540d83;
+  border-color: #540d83;
+}
+.auth {
+  margin: 1rem auto;
+  width: 95%;
+  max-width: 45rem;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem 2rem 2rem;
+  text-align: center;
+}
+
+.auth h1 {
+  text-align: center;
+}
+
+.auth p {
+  text-align: left;
+}
+
+.displayFlex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.edit {
+  cursor: pointer;
+  transition: .5s;
+}
+
+.edit:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  color: #9f5ccc;
+}
