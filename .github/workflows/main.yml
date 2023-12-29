@@ -85,13 +85,13 @@ jobs:
   #         echo "Build failed. Sending email notification."
   #         # Replace the following line with your email sending logic
   #         echo "Sending email to: \"Lv00002@linvest21.comm, david.d.lin@linvest21.com, lv00005@linvest21.com\""
-      - name: Download artifacts
-        uses: actions/download-artifact@v2
-        with:
-          name: artifacts-${{env.REPO_NAME}}-${{ env.IMAGE_TAG }}
-          path: ./downloaded-artifacts
+      # - name: Download artifacts
+      #   uses: actions/download-artifact@v2
+      #   with:
+      #     name: artifacts-${{env.REPO_NAME}}-${{ env.IMAGE_TAG }}
+      #     path: ./downloaded-artifacts
 
-      - name: Display artifacts
-        run: |
-          echo "Contents of downloaded artifacts:"
-          ls -R ./downloaded-artifacts
+      # - name: Display artifacts
+      #   run: |
+      #     echo "Contents of downloaded artifacts:"
+      #     ls -R ./downloaded-artifacts
