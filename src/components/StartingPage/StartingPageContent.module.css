@@ -1,3 +1,4 @@
+/* General Styles */
 .starting {
   margin: 3rem auto;
   text-align: center;
@@ -11,11 +12,10 @@ a {
   text-decoration: none;
 }
 
+/* Shop Styles */
 .shop {
   cursor: pointer;
   margin: 1rem 3rem;
-  /* width: 95%;
-  max-width: 49%; */
   background-color: #38015c;
   border-radius: 6px;
   color: #fff;
@@ -27,9 +27,9 @@ a {
 .shop:hover {
   background-color: #fff;
   color: #38015c;
-  
 }
 
+/* Form Styles */
 .form {
   width: 100%;
   display: flex;
@@ -58,25 +58,12 @@ a {
   background-color: #f7f0fa;
 }
 
+/* Action Styles */
 .action {
   margin-top: 1.5rem;
 }
 
-.action button {
-  font: inherit;
-  cursor: pointer;
-  padding: 0.5rem 1.5rem;
-  border-radius: 4px;
-  background-color: #38015c;
-  color: white;
-  border: 1px solid #38015c;
-}
-
-.action button:hover {
-  background-color: #540d83;
-  border-color: #540d83;
-}
-
+.action button,
 .action a {
   font: inherit;
   cursor: pointer;
@@ -85,9 +72,9 @@ a {
   background-color: #38015c;
   color: white;
   border: 1px solid #38015c;
-  text-decoration: none;
 }
 
+.action button:hover,
 .action a:hover {
   background-color: #540d83;
   border-color: #540d83;
