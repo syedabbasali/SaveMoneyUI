@@ -6,10 +6,10 @@ name: Javascript CI Test UI saveMoney
 on:
   push:
     branches:
-      - main
+      - mainz
   pull_request:
     branches:
-      - main
+      - mainz
       # xyz
 
 
