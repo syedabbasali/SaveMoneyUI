@@ -6,10 +6,10 @@ name: Javascript CI Test UI saveMoney
 on:
   push:
     branches:
-      - mainz
+      - main
   pull_request:
     branches:
-      - mainz
+      - main
       # xyz
 
 
@@ -30,7 +30,7 @@ jobs:
       - name: Build with npm
         run: | 
          # npm audit fix
-          npm install --save
+          npm instal --save
          # npm run build
           #npm ci
          # npm test
