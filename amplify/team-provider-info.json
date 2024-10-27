@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-savemoneyui-dev-153bd-authRole",
+      "UnauthRoleArn": "arn:aws:iam::393604994235:role/amplify-savemoneyui-dev-153bd-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::393604994235:role/amplify-savemoneyui-dev-153bd-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-savemoneyui-dev-153bd-deployment",
+      "UnauthRoleName": "amplify-savemoneyui-dev-153bd-unauthRole",
+      "StackName": "amplify-savemoneyui-dev-153bd",
+      "StackId": "arn:aws:cloudformation:us-east-1:393604994235:stack/amplify-savemoneyui-dev-153bd/cbe2e900-92bb-11ef-b0e9-12002b8fc287",
+      "AmplifyAppId": "d2st87zfv1uuf8"
+    }
+  }
+}
